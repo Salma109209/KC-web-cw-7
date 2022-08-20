@@ -20,7 +20,7 @@ function Status (bmi) {
     let weight = document.getElementById("weight").value;
     let height = document.getElementById("height").value;
 
-    let bmi = BMI(wight, height);
+    let bmi = BMI(weight, height);
      
     let desc = Status(bmi);
      let div = document.getElementById('result');
